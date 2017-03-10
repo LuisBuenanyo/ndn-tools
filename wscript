@@ -63,6 +63,7 @@ def build(bld):
 
 def version(bld):
     # Modified from ndn-cxx wscript
+    didGetVersion = False
     try:
         cmd = ['git', 'describe', '--always', '--match', '%s*' % GIT_TAG_PREFIX]
         p = Utils.subprocess.Popen(cmd, stdout=Utils.subprocess.PIPE,
