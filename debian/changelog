@@ -1,3 +1,9 @@
+ndn-tools (0.4.0-2) unstable; urgency=medium
+
+  * Repack and fix wscript
+
+ -- Niv Sardi <xaiki@evilgiggle.com>  Mon, 13 Mar 2017 12:11:47 -0300
+
 ndn-tools (0.4.0-1) unstable; urgency=medium
 
   * Initial release (Closes: #nnnn) 
